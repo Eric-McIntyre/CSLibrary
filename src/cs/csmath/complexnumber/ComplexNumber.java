@@ -70,7 +70,9 @@ public class ComplexNumber {
 
      }
       public double abs() {
-        return 0.0;
+          return Math.sqrt(this.realPart * this.realPart + this.imagPart * this.imagPart);
+
+
 
       }
 
